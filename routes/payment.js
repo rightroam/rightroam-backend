@@ -1,4 +1,5 @@
-const router = require('express').Router();
+const express = require('express');
+const router = express.Router();
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY || 'sk_test_demo');
 const { authMiddleware } = require('../middleware/auth');
 
