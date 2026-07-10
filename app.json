@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "a88b9d70-ce83-41aa-b68e-888b9398219f"
+      }
+    },
+    "android": {
+      "package": "com.rightroam.rightroam"
+    }
+  }
+}
